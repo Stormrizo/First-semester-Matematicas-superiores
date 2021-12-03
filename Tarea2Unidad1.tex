@@ -1,0 +1,358 @@
+\documentclass[12pt]{article} 
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx} \usepackage[left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
+\usepackage{pstricks}
+\begin{document}
+
+\thispagestyle{empty} 
+\begin{center} \LARGE{\bf Benemérita Universidad Autónoma de Puebla} \\[0.5cm]
+\begin{figure}[htb] \centering \includegraphics[scale=.2]{LogoBUAPpng.png} \end{figure}
+\LARGE{Facultad de Ciencias Físico Matemáticas}\\[0.5cm]
+\begin{figure}[htb] \centering \includegraphics[scale=.39]{LogoFCFMBUAP.png} \end{figure} 
+\Large{Licenciatura en Física Teórica}\\[0.5cm]
+\large{Primer semestre} \end{center}
+\begin{center} { \Large \bfseries{Tarea 3: gráficas de funciones}} \\ \end{center}
+\large{\bf Curso: } Matemáticas Superiores \textbf{(N.R.C.:25601)}\\
+\large{\bf Alumno:} Julio Alfredo Ballinas García $\left(202107583\right)$ \\
+\large{\bf Docente:} Dr. Jorge Cotzomi Paleta\\
+\large{\bf Grupo:} 102\\ \begin{center} 
+\vfill
+\textsc{2021} \end{center}  
+\newpage
+
+
+
+\begin{center}
+\Large{Gráfica de funciones usando \textbf{{\green desmos}} en línea}
+\end{center}
+
+
+En esta tarea se muestran algunas gráficas de funciones vistas en clases con sus respectivos dominios ($D_f$)y rangos ($R_f$). 
+
+Se utilizó la \textit{calculadora gráfica} \textbf{{\green desmos}} para poder representar cada una de estas. 
+
+A continuación se especifica los tipos de funciones que se graficaron en la \textit{calculadora gráfica} \textbf{{\green desmos}}. 
+
+\begin{itemize}
+\item Funciones \textbf{\cyan constantes positivas}: $f(x)= 3$, $f(x)= 34$,$f(x)= 100$
+\item Funciones \textbf{\cyan constantes negativas}: $f(x)= - 6$, $f(x)= - 45$,$f(x)= -320$
+\item Función \textbf{\cyan racional de la forma}: $f(x)=\dfrac{1}{x}$
+\item Función \textbf{\cyan racional de la forma}: $f(x)=\dfrac{1}{x^2}$
+\item Función \textbf{\cyan cuadrática}: $x^2$
+\item Función \textbf{\cyan cuadrática} con algunos \textbf{\cyan valores positivos}: $x^2 +   34$, $x^2 + 100$, $x^2 + 500$
+\item Función \textbf{\cyan cuadrática negativa}: $- x^2$
+\item Función \textbf{\cyan cuadrática negativa} con algunos \textbf{\cyan valores negativos}: $- x^2 - 40 $, $-x^2 - 80 $,  $- x^2 - 400$
+\item Función \textbf{\cyan cúbica}: $x^3$
+\item Función \textbf{\cyan cúbica} con algunos \textbf{\cyan valores positivos}: $x^3 + 10$, $x^3 + 30$, $x^3 + 80$
+\item Función \textbf{\cyan cúbica negativa}: $-x^3$
+\item Función \textbf{\cyan cúbica negativa} con algunos \textbf{\cyan valores negativos}: $- x^3 - 40$, $- x^3 - 60$, $- x^3 - 120$
+\item Función de \textbf{\cyan 4° grado}: $x^4$
+\item Función de \textbf{\cyan 4° grado} con algunos \textbf{\cyan valores positivos}: $x^4 + 50$, $x^4 + 70$, $x^4 + 250$
+\item Función de \textbf{\cyan 4° grado negativa}: $- x^4$
+\item Función de \textbf{\cyan 4° grado negativa} con algunos \textbf{\cyan valores negativos}: $- x^4 - 60$, $x^4 - 100$, $x^4 - 300$
+\item Funciones de \textbf{\cyan 5° y 6° grado}: $x^5$, $x^6$
+\item Funciones de \textbf{\cyan 5° y 6° grado} con algunos valores \textbf{\cyan positivos}: $x^5 + 75$, $x^6 + 90$
+\item Funciones de \textbf{\cyan 5° y 6° grado negativas}: $- x^5$, $- x^6$
+\item Funciones de \textbf{\cyan 5° y 6° grado negativas} con algunos \textbf{\cyan valores negativos}: $- x^5 - 85$, $x^6 - 95$
+
+\item Gráficas de funciones \textbf{\cyan trigonométricas}: $\textbf{\textit{f(x)}}\textbf{\textit{=}} \textbf{\textit{sen(x)}}$, $\textbf{\textit{f(x)}}\textbf{\textit{=}} \textbf{\textit{cos(x)}}$, $\textbf{\textit{f(x)}}\textbf{\textit{=}} \textbf{\textit{tan(x)}}$, $\textbf{\textit{f(x)}}\textbf{\textit{=}} \textbf{\textit{csc(x)}}$, $\textbf{\textit{f(x)}}\textbf{\textit{=}} \textbf{\textit{sec(x)}}$, $\textbf{\textit{f(x)}}\textbf{\textit{=}}\textbf{\textit{cot(x)}}$ \\
+\end{itemize} 
+
+
+Antes de avanzar a los resultados obtenidos en desmos \textbf{{\green desmos}}, primero sería conveniente mostrar las características que definen a una función. \\
+
+\textbf{Definición informal de función} \\
+
+[...].Para hablar de una función, es necesario darle un nombre. Usamos \par letras como f, g, h, ... para representar funciones. Por ejemplo, podemos \par usar la letra f para representar una regla como sigue: 
+\par
+\begin{center}
+
+``\textit{f}''  es la regla ``elevar al cuadrado el número''
+\end{center}
+
+
+Cuando escribimos f(2) queremos decir ``aplicar la regla $f$ al número $2$''.\par La aplicación de la regla da $f(2) = 2^2 = 4$. Del mismo, $f(3) = 3^2 = 9$, \par $f(4) = 4^2 = 16$, y en general $f(x) = x^2$. (Stewart, Redlin y Watson, 2012, \par pág:143). [1] \\
+
+\textbf{{\blue Definición formal de una función}} \\
+
+\textit{Una \textbf{función} \textit{f} es la regla que asigna a cada elemento \textbf{x} de un conjunto} \par \textit{\textbf{A} exactamente un elemento, llamado \textit{f(x}), de un conjunto \textbf{B}.} \textbf{\textit{A}} $\rightarrow$ \textbf{\textit{B}}. \par (Stewart, et al., 2012, pág:143). [2]
+
+\newpage
+
+\section{funciones \cyan constantes positivas}
+\subsection{$f(x) = 3$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{F3.png} \end{figure}
+$D_f = x \in \mathbb{R}  $  \par
+$R_f = \left\lbrace3\right\rbrace$ \\
+\subsection{$f(x) = 34$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{f34.png}
+\end{figure}
+$D_f = x \in \mathbb{R}  $  \par
+$R_f = \left\lbrace34\right\rbrace$
+\newpage
+\subsection{$f(x) = 100$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{f100.png} \end{figure}
+$D_f = x \in \mathbb{R}  $  \par
+$R_f = \left\lbrace100\right\rbrace$
+\section{funciones \cyan constantes negativas}
+\subsection{$f(x) = - 6$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{f-6.png} \end{figure}
+$D_f = x \in \mathbb{R}  $  \par
+$R_f = \left\lbrace-6\right\rbrace$
+\newpage
+\subsection{$f(x) = - 45$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{f-45.png} \end{figure}
+$D_f = x \in \mathbb{R}  $  \par
+$R_f = \left\lbrace-45\right\rbrace$
+\subsection{$f(x) = - 45$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{f-320.png} \end{figure}
+$D_f = x \in \mathbb{R}  $  \par
+$R_f = \left\lbrace-320\right\rbrace$
+\newpage
+\section{función {\cyan racional de la forma}: $f(x) = \dfrac{1}{x}$}
+\subsection{$f(x) = \dfrac{1}{x}$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{f1cuarto.png} \end{figure}
+$D_f = x \in \mathbb{R} -  \left\lbrace0\right\rbrace $  \par
+$R_f = y \in \mathbb{R} -  \left\lbrace0\right\rbrace$
+\section{función {\cyan racional de la forma}: $f(x) = \dfrac{1}{x^2}$}
+\subsection{$f(x) = \dfrac{1}{x^2}$}
+\begin{figure}[htb] \centering \includegraphics[scale=.3]{fequiscuadradadebajo.png} \end{figure}
+$D_f = x \in \mathbb{R} -  \left\lbrace0\right\rbrace $  \par
+$R_f = y \in \left(0,\infty\right)$
+\newpage
+
+\section{función {\cyan cuadrática}: $f(x) = x^2$}
+\subsection{$f(x) = x^2$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuadra.png} \end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[0,\infty\right)$
+\section{función {\cyan cuadrática} con algunos {\cyan valores positivos}: }
+\subsection{$f(x) = x^2 + 34$}
+\begin{figure}[htb] \centering \includegraphics[scale=.3]{fcuadra34.png} \end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[34,\infty\right)$
+\newpage
+\subsection{$f(x) = x^2 + 100$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuadra100.png} \end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[100,\infty\right)$
+
+\subsection{$f(x) = x^2 + 100$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuadra500.png} \end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[500,\infty\right)$
+\newpage
+\section{función {\cyan cuadrática negativa}: $f(x)= -x^2$}
+\subsection{$f(x) = -x^2$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuadranegativa.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left(-\infty,0\right]$
+\section{función {\cyan cuadrática negativa} con algunos {\cyan valores negativos}}
+\subsection{$f(x) = -x^2 - 40$}
+\begin{figure}[htb] \centering \includegraphics[scale=.3]{fcuadra-40.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left(-\infty,-40\right]$
+\newpage
+\subsection{$f(x) = -x^2 - 80$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuadra-80.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left(-\infty,-80\right]$
+\subsection{$f(x) = -x^2 - 400$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuadra-400.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left(-\infty,-400\right]$
+\newpage
+\section{función {\cyan cúbica}: $f(x) = x^3$}
+\subsection{$f(x) = x^3$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcubica.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$
+\section{función {\cyan cúbica} con algunos {\cyan valores positivos}}
+\subsection{$f(x) = x^3 + 10$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcubica10.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$
+\subsection{$f(x) = x^3 + 30$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcubica30.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$
+\subsection{$f(x) = x^3 + 80$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcubica80.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$
+\newpage
+\section{función {\cyan cúbica negativa}: $f(x) = -x^3$}
+\subsection{$f(x) = -x^3$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcubicanegativa.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$
+\section{función {\cyan cúbica negativa} con algunos {\cyan valores negativos}}
+\subsection{$f(x) = -x^3 - 40$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcubica-40.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$
+\subsection{$f(x) = -x^3 - 60$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcubica-60.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$
+\subsection{$f(x) = -x^3 - 120$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcubica-120.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$
+\newpage
+\section{función de {\cyan 4° grado}: $f(x) = x^4$}
+\subsection{$f(x) = x^4$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuarta.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[0,\infty\right)$
+\section{función de {\cyan 4° grado} con algunos {\cyan valores positivos}}
+\subsection{$f(x) = x^4 + 50$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuarta50.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[50,\infty\right)$
+\subsection{$f(x) = x^4 + 70$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuarta70.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[70,\infty\right)$
+\subsection{$f(x) = x^4 + 250$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuarta250.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[250,\infty\right)$
+\newpage
+\section{función de {\cyan 4° grado negativa}: $f(x) = -x^4$}
+\subsection{$f(x) = -x^4$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuartanegativa.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left(-\infty,0\right]$
+\section{función de {\cyan 4° grado negativa} con algunos {\cyan valores negativos}}
+\subsection{$f(x) = -x^4 - 60$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuarta-60.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left(-\infty,-60\right]$
+\subsection{$f(x) = -x^4 - 100$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuarta-100.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left(-\infty,-100\right]$
+\subsection{$f(x) = -x^4 - 300$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcuarta-300.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left(-\infty,-300\right]$
+\newpage
+\section{funciones de {\cyan 5° y 6° grado }: $f(x) = x^5$ y $f(x) = x^6$} 
+\subsection{$f(x) = x^5$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fquinta.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$ 
+\subsection{$f(x) = x^6$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fsexta.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[0,\infty\right)$ 
+\section{funciones de {\cyan 5° y 6° grado }con algunos {\cyan valores positivos}: $f(x) = x^5 + 75$, $f(x) = x^6 + 90$} 
+\subsection{$f(x) = x^5 + 75$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fquinta75.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$ 
+\subsection{$f(x) = x^6 + 90$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fsexta90.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[90,\infty\right)$ 
+\newpage
+\section{funciones de {\cyan 5° y 6° grado negativas }: $f(x) = -x^5$ y $f(x) = -x^6$}
+\subsection{$f(x) = -x^5$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fquintanegativa.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$ 
+\subsection{$f(x) = -x^6$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fsextanegativa.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left(-\infty,0\right]$ 
+\newpage
+\section{funciones de {\cyan 5° y 6° grado negativas }con algunos {\cyan valores negativos}: $f(x) = -x^5 - 85$, $f(x) = -x^6 - 95$} 
+\subsection{$f(x) = -x^5 - 85$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fquinta-85.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \mathbb{R}$ 
+\subsection{$f(x) = -x^6 - 95$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fsexta-95.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left(-\infty,-95\right]$ 
+\newpage
+\section{Gráficas de funciones {\cyan trigonométricas }: $\textit{f(x)} = \textit{sen(x)}$, $\textit{f(x)} = \textit{cos(x)}$, $\textit{f(x)} = \textit{tan(x)}$, $\textit{f(x)} = \textit{csc(x)}$, $\textit{f(x)} = \textit{sec(x)}$, $\textit{f(x)} = \textit{cot(x)}$} 
+\subsection{$\textit{f(x)} = \textit{sen(x)}$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fsen.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[-1,1\right]$ 
+\subsection{$\textit{f(x)} = \textit{cos(x)}$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcos.png} 
+\end{figure}
+$D_f = x \in \mathbb{R}$ \par
+$R_f = y \in \left[-1,1\right]$ 
+\subsection{$\textit{f(x)} = \textit{tan(x)}$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{ftan.png} 
+\end{figure}
+$D_f = x \in \mathbb{R} - \left\lbrace\left(2n +1\right)\pi/2\right\rbrace, n \in \mathbb{Z}$ \par
+$R_f = y \in \mathbb{R}$ 
+\subsection{$\textit{f(x)} = \textit{csc(x)}$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcsc.png} 
+\end{figure}
+$D_f = x \in \mathbb{R} - \left\lbrace\left(n\right)\pi\right\rbrace, n \in \mathbb{Z}$ \par
+$R_f = y \in \left(-\infty,-1\right] \cup \left[1,\infty\right)$ 
+\newpage
+\subsection{$\textit{f(x)} = \textit{sec(x)}$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fsec.png} 
+\end{figure}
+$D_f = x \in \mathbb{R} - \left\lbrace\left(2n +1\right)\pi/2\right\rbrace, n \in \mathbb{Z}$ \par
+$R_f = y \in \left(-\infty,-1\right] \cup \left[1,\infty\right) $ 
+\subsection{$\textit{f(x)} = \textit{cot(x)}$}
+\begin{figure}[htb] \centering \includegraphics[scale=.4]{fcot.png} 
+\end{figure}
+$D_f = x \in \mathbb{R} - \left\lbrace\left(n\right)\pi\right\rbrace, n \in \mathbb{Z}$ \par
+$R_f = y \in \left(-\infty,\infty\right)$ [3]
+
+\newpage
+
+\section{Referencias}
+
+[1] Stewart, J., Redlin, L. y Watson, S. (2012). \textit{\textbf{Precálculo}}: \textit{Matemáticas }\par \textit{para el cálculo}. Ciudad de México: Cengage Learning. \\ 
+\par [2] Stewart, J., Redlin, L. y Watson, S. (2012). \textbf{Precálculo}: \textit{Matemáticas} \par \textit{para el cálculo}. Ciudad de México: Cengage Learning. \\
+\par [3] Aguilar, A., Bravo, F., Gallegos, H., Cerón, M. y Reyes, R. (2016). \par \textit{Matemáticas simplificadas}. Ciudad de México: Pearson.\\ \\
+
+
+La elaboración de este documento fue gracias al programa \LaTeX.
+
+:)
+
+\end{document}
