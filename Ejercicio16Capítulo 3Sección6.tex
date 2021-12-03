@@ -1,0 +1,94 @@
+\documentclass[12pt]{article} 
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage[spanish]{babel}
+\usepackage{multicol}
+\newenvironment{Figura}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+\usepackage{caption}
+\usepackage{amsfonts}
+\usepackage{amsmath, amsthm, amssymb}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\usepackage{graphicx}
+\usepackage[left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
+\usepackage{pstricks}
+\usepackage{xcolor}
+\definecolor{verde_manzana}{rgb}{0.55, 0.71, 0.0}
+\definecolor{Aguamarina}{rgb}{0.5, 1.0, 0.83}
+\definecolor{mandarina_atomica}{rgb}{1.0, 0.6, 0.4}
+\definecolor{blizzardblue}{rgb}{0.67, 0.9, 0.93}
+\definecolor{bluegray}{rgb}{0.4, 0.6, 0.8}
+\definecolor{coolgrey}{rgb}{0.55, 0.57, 0.67}
+\definecolor{tealgreen}{rgb}{0.0, 0.51, 0.5}
+\definecolor{ticklemepink}{rgb}{0.99, 0.54, 0.67}
+\definecolor{thulianpink}{rgb}{0.87, 0.44, 0.63}
+\definecolor{wildwatermelon}{rgb}{0.99, 0.42, 0.52}
+\definecolor{wisteria}{rgb}{0.79, 0.63, 0.86}
+\definecolor{yellow(munsell)}{rgb}{0.94, 0.8, 0.0}
+\definecolor{trueblue}{rgb}{0.0, 0.45, 0.81}	
+\definecolor{tropicalrainforest}{rgb}{0.0, 0.46, 0.37}
+\definecolor{tearose(rose)}{rgb}{0.96, 0.76, 0.76}
+\begin{document}
+\pagestyle{empty} 
+\setlength{\parindent}{0pt}
+
+\sffamily
+
+\section*{{\textcolor{tropicalrainforest}{{\underline{Problema 16.}}}} {\textcolor{yellow(munsell)}{Capítulo 3:} {\textcolor{wisteria}{Sección 6.}}}} \vspace{0.1cm}
+
+Hallar la derivada de la función: $y$ $=$ $
+(x^{2} + 1)^{3} (2x+5)^{2}$. \vspace{0.3cm} 
+
+Tenemos entonces que la derivada de: 
+\begin{center}
+    $y$ $=$ $(x^{2} + 1)^{3} (2x+5)^{2}$
+\end{center}
+
+\begin{center}
+    es:
+\end{center}
+
+\begin{center}
+{\Large{$\frac{dy}{dx}$ $=$ $\frac{d}{dx}$}} {\Large{[}}  
+$(x^{2} + 1)^{3} (2x+5)^{2}\hspace{0.2cm} ${\Large{]}}
+\end{center}\vspace{0.3cm} 
+
+Aplicar la regla de derivación {\textbf{regla de la potencia}}: {\Large{$\frac{d}{dx}$}} $[v^{n}]$ $=$  {\Large{$n v^{n-1}$ $\frac{dv}{dx}$}} \vspace{0.3cm}
+
+Aplicar la regla de derivación {\textbf{respecto al producto}}: {\Large{$\frac{d}{dx}$}} $[uv]$ $=$  {\Large{$u$ $\frac{dv}{dx}$ $+$ $v$ $\frac{du}{dx}$}} \vspace{0.3cm}
+
+\hspace{10.7cm} $=$ {\textcolor{wildwatermelon}{\Large{$u$}}} $\cdot$ {\textcolor{tealgreen}{\Large{$v^{{\black{\prime}}}$}}} $+$ {\textcolor{tealgreen}{\Large{$v$}}} $\cdot$ {\textcolor{wildwatermelon}{\Large{$u^{{\black{\prime}}}$}}}\vspace{0.3cm}
+
+Sean {\textcolor{wildwatermelon}{{\Large{$u$}}}} $=$ {\textcolor{wildwatermelon}{{$(x^{2}+1)^{3}$}}}, \hspace{0.3cm} {\textcolor{tealgreen}{{\Large{$v$}}}} $=$ {\textcolor{tealgreen}$(2x+5)^{2}$}
+
+\begin{equation*}
+    \begin{split}
+       \frac{d}{dx} {\Large{[}}{\textcolor{wildwatermelon}{u}} {\textcolor{tealgreen}{v}}{\Large{]}} & = {\textcolor{wildwatermelon}{(x^{2} + 1)^{3}}} \cdot {\textcolor{tealgreen}{2(2x+5)^{2-1}\cdot \frac{d}{dx}(2x+5)}} \hspace{0.2cm} {\textbf{+}} \hspace{0.2cm} {\textcolor{tealgreen}{(2x+5)^{2}}} \cdot {\textcolor{wildwatermelon}{3(x^{2} +1)^{3-1}\cdot \frac{d}{dx}(x^{2}+1)}}\\\\ 
+        & = {\textcolor{wildwatermelon}{(x^{2} + 1)^{3}}} \cdot {\textcolor{tealgreen}{2(2x+5) \cdot (2) }} \hspace{0.2cm} {\textbf{+}} \hspace{0.2cm} {\textcolor{tealgreen}{(2x+5)^{2}}} \cdot {\textcolor{wildwatermelon}{3(x^{2} + 1)^{2}\cdot (2x)}} \\\\
+         & = {\textcolor{wildwatermelon}{(x^{2} + 1)^{3}}} \cdot {\textcolor{tealgreen}{{\underline{2}}(2){\underline{(2x+5)}}}} \hspace{0.2cm} {\textbf{+}} \hspace{0.2cm} {\textcolor{tealgreen}{(2x+5)^{2}}} \cdot {\textcolor{wildwatermelon}{{\underline{2}}(3x){\underline{(x^{2} + 1)^{2}}}}}\\\\ 
+         & = 2 {\textcolor{wildwatermelon}{(x^{2} + 1)^{2}}} {\textcolor{tealgreen}{(2x+5)}} \hspace{0.2cm} {\textbf{(}}\hspace{0.1cm}{\textcolor{wildwatermelon}{(x^{2} + 1)}} \cdot {\textcolor{tealgreen}{2}} \hspace{0.2cm} {\textbf{+}} \hspace{0.2cm} {\textcolor{tealgreen}{(2x+5)}} \cdot {\textcolor{wildwatermelon}{3x}}\hspace{0.1cm}{\textbf{)}} \hspace{1 cm} \textup{\black{Factor común: $(2)$, ${\textcolor{wildwatermelon}{(x^{2} + 1)^{2}}}$}}, {\textcolor{tealgreen}{(2x+5)}}\\\\
+         & = 2 {\textcolor{wildwatermelon}{(x^{2} + 1)^{2}}} {\textcolor{tealgreen}{(2x+5)}} \hspace{0.2cm} {\textbf{(}}\hspace{0.1cm}(2x^{2} + 2) \hspace{0.2cm} {\textbf{+}} \hspace{0.2cm} (6x^{2}+15x)\hspace{0.1cm}{\textbf{)}}\\\\
+         & = 2 {\textcolor{wildwatermelon}{(x^{2} + 1)^{2}}} {\textcolor{tealgreen}{(2x+5)}} \hspace{0.2cm} (\hspace{0.1cm}8x^{2} + 15x +2 \hspace{0.2cm})\\\\ 
+         & = {\textcolor{wildwatermelon}{(x^{2} + 1)^{2}}} {(4x+10)} \hspace{0.2cm} (\hspace{0.1cm}8x^{2} + 15x +2 \hspace{0.2cm} )\\\\ 
+         & = {\textcolor{wildwatermelon}{(x^{4} + 2x^{2}+1)}} {(4x+10)} \hspace{0.2cm} (\hspace{0.1cm}8x^{2} + 15x +2 \hspace{0.2cm})\\\\ 
+         & = (4x^{5} + 8x^{3}+4x+10x^{4}+20x^{2}+10) \hspace{0.2cm} (8x^{2} + 15x +2)\\\\ 
+    \end{split}
+\end{equation*} \vspace{0.1cm} 
+
+\hspace{1.39cm}= $(4x^{5} +10x^{4}+ 8x^{3}+20x^{2}+4x+10) \hspace{0.2cm} (8x^{2} + 15x +2)$\vspace{0.4cm}
+
+\hspace{1.39cm}= $(x+\frac{5}{2}) (4x^{4} + 8x^{2} + 4) \hspace{0.2cm} (8x^{2} + 15x +2)$\vspace{0.4cm}
+
+\hspace{.75cm}{\Large{$\frac{dy}{dx}$}} $=$ $(x+\frac{5}{2}) (x^{2} + 1)^{2}(8x^{2} + 15x +2)$  \hspace{.5cm}{\textcolor{ticklemepink}{\qedsymbol}}  \vspace{2cm}
+
+
+
+\hspace{9cm}\textsf{Julio Alfredo Ballinas García (202107583)}
+
+
+
+ 
+
+\end{document}
+
