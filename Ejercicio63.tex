@@ -1,0 +1,142 @@
+\documentclass[12pt]{article} 
+\usepackage[utf8]{inputenc}
+\usepackage{pdfpages}
+\usepackage[spanish]{babel}
+\usepackage{multicol}
+\newenvironment{Figura}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+\usepackage{caption}
+\usepackage{lipsum}
+\usepackage[framemethod=default]{mdframed}
+\newmdenv[linecolor=red,backgroundcolor=yellow]{myframe}
+\usepackage{endnotes}
+\usepackage{amsfonts}
+\usepackage{amsmath, amsthm, amssymb}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\usepackage{graphicx}
+\usepackage[left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
+\usepackage{pstricks}
+\usepackage{xcolor}
+\definecolor{verde_manzana}{rgb}{0.55, 0.71, 0.0}
+\definecolor{Aguamarina}{rgb}{0.5, 1.0, 0.83}
+\definecolor{mandarina_atomica}{rgb}{1.0, 0.6, 0.4}
+\definecolor{blizzardblue}{rgb}{0.67, 0.9, 0.93}
+\definecolor{bluegray}{rgb}{0.4, 0.6, 0.8}
+\definecolor{coolgrey}{rgb}{0.55, 0.57, 0.67}
+\definecolor{tealgreen}{rgb}{0.0, 0.51, 0.5}
+\definecolor{ticklemepink}{rgb}{0.99, 0.54, 0.67}
+\definecolor{thulianpink}{rgb}{0.87, 0.44, 0.63}
+\definecolor{wildwatermelon}{rgb}{0.99, 0.42, 0.52}
+\definecolor{wisteria}{rgb}{0.79, 0.63, 0.86}
+\definecolor{yellow(munsell)}{rgb}{0.94, 0.8, 0.0}
+\definecolor{trueblue}{rgb}{0.0, 0.45, 0.81}	
+\definecolor{tropicalrainforest}{rgb}{0.0, 0.46, 0.37}
+\definecolor{tearose(rose)}{rgb}{0.96, 0.76, 0.76}
+\definecolor{tearose(rose)}{rgb}{0.96, 0.76, 0.76}
+\definecolor{antiquefuchsia}{rgb}{0.57, 0.36, 0.51}
+\definecolor{bittersweet}{rgb}{1.0, 0.44, 0.37}	
+\definecolor{carrotorange}{rgb}{0.93, 0.57, 0.13}
+\definecolor{cinereous}{rgb}{0.6, 0.51, 0.48}
+\definecolor{darkcoral}{rgb}{0.8, 0.36, 0.27}	
+\definecolor{orange(colorwheel)}{rgb}{1.0, 0.5, 0.0}
+\definecolor{palatinateblue}{rgb}{0.15, 0.23, 0.89} 
+\definecolor{pakistangreen}{rgb}{0.0, 0.4, 0.0} 
+\definecolor{vividviolet}{rgb}{0.62, 0.0, 1.0} 
+\definecolor{tigre}{rgb}{0.88, 0.55, 0.24} 
+\definecolor{prussianblue}{rgb}{0.0, 0.19, 0.33} 	
+\definecolor{plum(traditional)}{rgb}{0.56, 0.27, 0.52} 	
+\definecolor{persianred}{rgb}{0.8, 0.2, 0.2} 
+\definecolor{orange(webcolor)}{rgb}{1.0, 0.65, 0.0} 
+\definecolor{onyx}{rgb}{0.06, 0.06, 0.06}  	
+\definecolor{americanrose}{rgb}{1.0, 0.01, 0.24} 
+\definecolor{amber(sae/ece)}{rgb}{1.0, 0.49, 0.0} 	
+\definecolor{antiquebrass}{rgb}{0.8, 0.58, 0.46} 
+\definecolor{antiquewhite}{rgb}{0.98, 0.92, 0.84} 
+\definecolor{arylideyellow}{rgb}{0.91, 0.84, 0.42}
+\definecolor{awesome}{rgb}{1.0, 0.13, 0.32}
+\definecolor{azure(web)(azuremist)}{rgb}{0.94, 1.0, 1.0} 	
+\definecolor{babyblue}{rgb}{0.54, 0.81, 0.94} 
+\definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95} 	
+\definecolor{babypink}{rgb}{0.96, 0.76, 0.76} 	
+\definecolor{ballblue}{rgb}{0.13, 0.67, 0.8} 
+\definecolor{bananamania}{rgb}{0.98, 0.91, 0.71} 
+\definecolor{bananayellow}{rgb}{1.0, 0.88, 0.21}
+\definecolor{beaublue}{rgb}{0.74, 0.83, 0.9}  
+\definecolor{blond}{rgb}{0.98, 0.94, 0.75}
+\definecolor{blush}{rgb}{0.87, 0.36, 0.51} 
+\definecolor{bubblegum}{rgb}{0.99, 0.76, 0.8}
+\definecolor{capri}{rgb}{0.0, 0.75, 1.0}
+\definecolor{cinnamon}{rgb}{0.82, 0.41, 0.12}
+\definecolor{coolblack}{rgb}{0.0, 0.18, 0.39}
+\definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49} 
+\definecolor{azure(colorwheel)}{rgb}{0.0, 0.5, 1.0}
+
+\begin{document}
+\pagestyle{empty} 
+\setlength{\parindent}{0pt}
+
+\sffamily 
+
+\section*{{\textcolor{tropicalrainforest}{{\underline{Problema 63.}}}} {\textcolor{yellow(munsell)}{Capítulo 3:} {\textcolor{wisteria}{Sección 6.}}}} \vspace{0.1cm}
+
+Hallar la derivada de la función: \hspace{0.3cm}{\LARGE{$y$ $=$ $\frac{(2x^{2}+1)^{4}}{(cosx^{3})}$}}. \vspace{0.3cm} 
+
+\begin{center}
+\colorbox{pink}{Nota:}  \fbox{{$Cosx^{3}$} {$=$} {$(Cos(x))^{3}$}}
+\end{center}
+
+
+Tenemos entonces que la derivada de: 
+\begin{center} {\Large{
+    $y$ $=$ $\frac{(2x^{2}+1)^{4}}{(cosx^{3})}$}}
+\end{center}
+
+\begin{center}
+    es:
+\end{center}
+
+\begin{center}
+{\Large{$\frac{dy}{dx}$ $=$ $\frac{d}{dx}$}} {\Large{[}}  
+{\Large{$\frac{(2x^{2}+1)^{4}}{(cos(x))^{3}}$}}\hspace{0.2cm} {\Large{]}}
+\end{center}\vspace{0.3cm} 
+
+Aplicar la regla de derivación {\textbf{regla de la potencia}}: {\Large{$\frac{d}{dx}$}} $[v^{n}]$ $=$  {\Large{$n v^{n-1}$ $\frac{dv}{dx}$}} \vspace{0.3cm}
+
+Aplicar la regla de derivación de función trigonométrica {\textbf{coseno}}: {\Large{$\frac{d}{dx}$}} $[\hspace{0.1cm}cos(\hspace{0.1cm}v\hspace{0.1cm})\hspace{0.1cm}]$ $=$  $- sen(\hspace{0.1cm}v\hspace{0.1cm})$ {\Large{$\frac{dv}{dx}$}} \vspace{0.3cm}
+
+Aplicar la regla de derivación {\textbf{respecto a la división (cociente)}}: {\Large{$\frac{d}{dx}$}} {\Large{$[\frac{u}{v}]$}} $=$   {\LARGE{$\frac{v\frac{du}{dx}-u\frac{dv}{dx}}{v^{2}}$}} \vspace{0.3cm}
+
+
+\hspace{12.85cm} $=$  {\LARGE{$\frac{{\textcolor{tealgreen}{v}} \cdot {\textcolor{wildwatermelon}{u}}^{\prime} \hspace{0.2cm} - \hspace{0.2cm} {\textcolor{wildwatermelon}{u}} \cdot {\textcolor{tealgreen}{v}}^{\prime}}{{\textcolor{tealgreen}{v}}^{2}}$}}\vspace{1cm}
+
+{\red{\underline{Solución:}}} \vspace{2cm}
+
+Sean {\textcolor{wildwatermelon}{{\Large{$u$}}}} $=$ {\textcolor{wildwatermelon}{{$(2x^{2}+1)^{4}$}}} \hspace{.7cm} y  \hspace{4.5cm} {\textcolor{tealgreen}{{\Large{$v$}}}} $=$ {\textcolor{tealgreen}{$(cos(x))^{3}$}} \vspace{0.3cm}
+
+\hspace{.65cm}{\textcolor{wildwatermelon}{{\Large{$du$}}}} $=$ {\textcolor{wildwatermelon}{{$4(2x^{2}+1)^{4-1} \hspace{0.2cm} {\bf{\cdot}} \hspace{0.2cm} {\frac{d}{dx}} (2x^{2}+1) $}}} \hspace{.7cm} y \hspace{1.01cm} {\textcolor{tealgreen}{{\Large{$dv$}}}} $=$ {\textcolor{tealgreen}{$3(cos(x))^{3-1}\hspace{0.2cm} \cdot\hspace{0.2cm} {\frac{d}{dx}} cos(x)$}} \vspace{0.3cm}
+
+\hspace{.65cm}{\textcolor{wildwatermelon}{{\Large{$du$}}}} $=$ {\textcolor{wildwatermelon}{{$4(2x^{2}+1)^{3} \hspace{0.2cm} {\bf{\cdot}} \hspace{0.2cm} (4x) $}}} \hspace{.7cm} y \hspace{2.7cm} {\textcolor{tealgreen}{{\Large{$dv$}}}} $=$ {\textcolor{tealgreen}{$3(cos(x))^{2}\hspace{0.2cm} \cdot\hspace{0.2cm}  -sen(x)$}} \vspace{0.3cm}
+
+\begin{equation*}
+    \begin{split}
+           \frac{d}{dx} {\LARGE[}\hspace{0.1cm}{\LARGE{\frac{{\textcolor{wildwatermelon}{u}}}{{\textcolor{tealgreen}{v}}}}} \hspace{0.1cm} {\LARGE{]}} & = \frac{ {\textcolor{tealgreen}{(cos(x))^{3}}} \cdot  {\textcolor{wildwatermelon}{{4(2x^{2}+1)^{3}} \hspace{0.2cm} {\bf{\cdot}} \hspace{0.2cm} (4x)} } - {\textcolor{wildwatermelon}{{(2x^{2}+1)^{4}}}} \cdot {\textcolor{tealgreen}{3(cos(x))^{2}}} \hspace{0.2cm} \cdot\hspace{0.2cm}  {{\textcolor{tealgreen}{(-sen(x))}}}}{{\textcolor{tealgreen}{((cos(x))^{3})^{2}}}} \\\\ 
+        & = \frac{ {\textcolor{tealgreen}{(cos(x))^{2}}}\cdot {\textcolor{wildwatermelon}{{(2x^{2}+1)^{3}}}} \hspace{0.2cm} ( {\textcolor{tealgreen}{(cos(x))}}\cdot{\textcolor{wildwatermelon}{{4} \hspace{0.2cm} \cdot \hspace{0.2cm} (4x)} } - {\textcolor{wildwatermelon}{{(2x^{2}+1)}}} \cdot {\textcolor{tealgreen}{3}} \hspace{0.2cm} \cdot \hspace{0.2cm}  {{\textcolor{tealgreen}{(-sen(x))}}})}{{\textcolor{tealgreen}{((cos(x))^{3})^{2}}}} \\\\
+         & = \frac{ {\textcolor{wildwatermelon}{{(2x^{2}+1)^{3}}}} \hspace{0.2cm} ( 4(4x) \cdot (cos(x))+  3 \cdot (2x^{2}+1) \hspace{0.2cm} \cdot sen(x))}{{\textcolor{tealgreen}{(cos(x))^{2}}}}\\\\ 
+         & =\frac{ {\textcolor{wildwatermelon}{{(2x^{2}+1)^{3}}}} \hspace{0.2cm} (( 16x)(cos(x)) +  (sen(x))(6x^{2}+3) )}{{\textcolor{tealgreen}{(cos(x))^{2}}}}\\\\
+        \frac{d}{dx} {\LARGE[}\hspace{0.1cm}{\LARGE{\frac{{\textcolor{wildwatermelon}{u}}}{{\textcolor{tealgreen}{v}}}}} \hspace{0.1cm} {\LARGE{]}} & = \frac{ {\textcolor{wildwatermelon}{{(2x^{2}+1)^{3}}}} \hspace{0.2cm} (( 16x)(cos(x)) +  (sen(x))(6x^{2}+3) )}{{\textcolor{tealgreen}{(cos(x))^{2}}}}
+    \end{split}
+    \end{equation*} \vspace{1cm} 
+
+\hspace{9cm} {{\qedsymbol}}  \vspace{2cm}
+
+
+
+\hspace{9cm}\textsf{Julio Alfredo Ballinas García (202107583)}
+
+
+
+ 
+
+\end{document}
+
